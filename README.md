@@ -15,8 +15,3 @@ This project involves the analysis and description of various General Relativity
 - Model stellar structures through the TOV equations.
 - Explore inflation models with different potentials to understand early universe expansion.
 
-## Installation
-1. Ensure that you have Maple and the GRTensor package installed.
-2. Clone this repository:
-   ```bash
-   git clone https://github.com/your-repo-link.git
