@@ -1,0 +1,129 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 
+2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Text Output" -1 6 
+1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 2 2 2 2 2 1 2 1 3 1 }1 1 
+0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" -1 
+-1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 0 0 0 1 0 1 0 2 2 
+0 1 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "exit;restart;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%%exitG" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 35 "libname:=`C:/Grtii(6)/Lib`,libname:" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 14 "readlib(grii):" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 11 "grtensor():" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%=G
+RTensorII~Version~1.79~(R4)G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%06~Fe
+bruary~2001G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%ZDeveloped~by~Peter~M
+usgrave,~Denis~Pollney~and~Kayll~LakeG" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#%DCopyright~1994-2001~by~the~authors.G" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%inLatest~version~available~from:~http://grtensor.phy.q
+ueensu.ca/G" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 44 "grOptionMetr
+icPath := `C:/Grtii(6)/Metrics`:" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 
+36 "Enter Flat space metric in Cart. Coo" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 14 "makeg(curved):" }}{PARA 6 "" 1 "" {TEXT -1 0 "" }}
+{PARA 6 "" 1 "" {TEXT -1 1 " " }}{PARA 6 "" 1 "" {TEXT -1 46 "Makeg 2.
+0: GRTensor metric/basis entry utility" }}{PARA 6 "" 1 "" {TEXT -1 1 "
+ " }}{PARA 6 "" 1 "" {TEXT -1 41 "To quit makeg, type 'exit' at any pr
+ompt." }}{PARA 6 "" 1 "" {TEXT -1 1 " " }}{PARA 6 "" 1 "" {TEXT -1 44 
+"Do you wish to enter a 1) metric [g(dn,dn)]," }}{PARA 6 "" 1 "" 
+{TEXT -1 44 "                       2) line element [ds]," }}{PARA 6 "
+" 1 "" {TEXT -1 63 "                       3) non-holonomic basis [e(1
+)...e(n)], or" }}{PARA 6 "" 1 "" {TEXT -1 49 "                       4
+) NP tetrad [l,n,m,mbar]?" }}{PARA 6 "" 1 "" {TEXT -1 0 "" }}}{EXCHG 
+{PARA 0 "makeg>" 0 "" {MPLTEXT 1 0 2 "1;" }}{PARA 6 "" 1 "" {TEXT -1 
+50 "Enter coordinates as a LIST (eg. [t,r,theta,phi]):" }}}{EXCHG 
+{PARA 0 "makeg>" 0 "" {MPLTEXT 1 0 19 "[t, r, theta, phi];" }}{PARA 6 
+"" 1 "" {TEXT -1 30 "Is the metric  1) Diagonal, or" }}{PARA 6 "" 1 "
+" {TEXT -1 28 "               2) Symmetric?" }}}{EXCHG {PARA 0 "makeg>
+" 0 "" {MPLTEXT 1 0 2 "1;" }}{PARA 6 "" 1 "" {TEXT -1 13 "Enter g[t,t]
+:" }}}{EXCHG {PARA 0 "makeg>" 0 "" {MPLTEXT 1 0 6 "-A(r);" }}{PARA 6 "
+" 1 "" {TEXT -1 13 "Enter g[r,r]:" }}}{EXCHG {PARA 0 "makeg>" 0 "" 
+{MPLTEXT 1 0 5 "B(r);" }}{PARA 6 "" 1 "" {TEXT -1 21 "Enter g[theta,th
+eta]:" }}}{EXCHG {PARA 0 "makeg>" 0 "" {MPLTEXT 1 0 4 "r^2;" }}{PARA 
+6 "" 1 "" {TEXT -1 17 "Enter g[phi,phi]:" }}}{EXCHG {PARA 0 "makeg>" 
+0 "" {MPLTEXT 1 0 17 "r^2*sin(theta)^2;" }}{PARA 6 "" 1 "" {TEXT -1 0 
+"" }}{PARA 6 "" 1 "" {TEXT -1 67 "If there are any complex valued coor
+dinates, constants or functions" }}{PARA 6 "" 1 "" {TEXT -1 66 "for th
+is spacetime, please enter them as a SET ( eg. \{ z, psi \} )." }}
+{PARA 6 "" 1 "" {TEXT -1 0 "" }}{PARA 6 "" 1 "" {TEXT -1 33 "Complex q
+uantities [default=\{\}]: " }}}{EXCHG {PARA 0 "makeg>" 0 "" {MPLTEXT 
+1 0 3 "\{\};" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%AThe~values~you~have~
+entered~are:G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%,CoordinatesG7&%\"t
+G%\"rG%&thetaG%$phiG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%(Metric:G" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#/*&&%\"gG6#%\"aG\"\"\"&%!G6#%\"bGF)K%'
+matrixG6#7&7&,$-%\"AG6#%\"rG!\"\"\"\"!F9F97&F9-%\"BGF6F9F97&F9F9*$)F7
+\"\"#F)F97&F9F9F9*&F?F))-%$sinG6#%&thetaGF@F)Q(pprint06\"" }}{PARA 6 "
+" 1 "" {TEXT -1 54 "You may choose to 0) Use the metric WITHOUT saving
+ it," }}{PARA 6 "" 1 "" {TEXT -1 46 "                  1) Save the met
+ric as it is," }}{PARA 6 "" 1 "" {TEXT -1 54 "                  2) Cor
+rect an element of the metric," }}{PARA 6 "" 1 "" {TEXT -1 41 "       \+
+           3) Re-enter the metric," }}{PARA 6 "" 1 "" {TEXT -1 54 "   \+
+               4) Add/change constraint equations, " }}{PARA 6 "" 1 "
+" {TEXT -1 47 "                  5) Add a text description, or" }}
+{PARA 6 "" 1 "" {TEXT -1 61 "                  6) Abandon this metric \+
+and return to Maple." }}{PARA 6 "" 1 "" {TEXT -1 0 "" }}}{EXCHG {PARA 
+0 "makeg>" 0 "" {MPLTEXT 1 0 2 "0;" }}{PARA 0 "makeg>" 0 "" {MPLTEXT 
+1 0 20 "grcalc ( G(dn,dn) ):" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"!
+" }}{PARA 6 "" 1 "" {TEXT -1 50 "Calculated g(dn,dn,pdn) for curved (0
+.000000 sec.)" }}{PARA 6 "" 1 "" {TEXT -1 51 "Calculated Chr(dn,dn,dn)
+ for curved (0.000000 sec.)" }}{PARA 6 "" 1 "" {TEXT -1 42 "Calculated
+ detg for curved (0.015000 sec.)" }}{PARA 6 "" 1 "" {TEXT -1 46 "Calcu
+lated g(up,up) for curved (0.015000 sec.)" }}{PARA 6 "" 1 "" {TEXT -1 
+51 "Calculated Chr(dn,dn,up) for curved (0.000000 sec.)" }}{PARA 6 "" 
+1 "" {TEXT -1 46 "Calculated R(dn,dn) for curved (0.000000 sec.)" }}
+{PARA 6 "" 1 "" {TEXT -1 49 "Calculated Ricciscalar for curved (0.0000
+00 sec.)" }}{PARA 6 "" 1 "" {TEXT -1 46 "Calculated G(dn,dn) for curve
+d (0.000000 sec.)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%*CPU~Time~G$\"#
+:!\"$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "grdisplay(G(dn,dn)
+):" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%:For~the~curved~spacetime:G" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%3Covariant~EinsteinG" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#-%\"GG6$%#dnGF&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#/*&&%#G~G6#%\"aG\"\"\"&%!G6#%\"bGF)K%'matrixG6#7&7&**-%\"AG6#%\"rGF),
+(*&F7F)-%%diffG6$-%\"BGF6F7F)F)*$)F=\"\"#F)F)F=!\"\"F)F7!\"#F=FC\"\"!F
+DFD7&FD*(F4FB,(*&F7F)-F;6$F4F7F)F)*&F=F)F4F)FBF4F)F)F7FCFDFD7&FDFD,$*&
+#F)\"\"%F)**F7F),,**FAF)FIF)F=F)F4F)FB*(FAF)F:F))F4FAF)F)**FIF)F:F)F4F
+)F7F)F)*,FAF)-F;6$F4-%\"$G6$F7FAF)F=F)F4F)F7F)FB*()FIFAF)F=F)F7F)F)F)F
+=FCF4FCF)FBFD7&FDFDFD,$*&#F)FPF)*,-%$sinG6#%&thetaGFAF7F)FRF)F=FCF4FCF
+)FBQ(pprint06\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 34 "eq1:=grc
+omponent(G(dn,dn), [t,t]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$eq1G*
+*-%\"AG6#%\"rG\"\"\",(*&F)F*-%%diffG6$-%\"BGF(F)F*F**$)F0\"\"#F*F*F0!
+\"\"F*F)!\"#F0F6" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 34 "eq2:=gr
+component(G(dn,dn), [r,r]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$eq2G
+*(-%\"AG6#%\"rG!\"\",(*&F)\"\"\"-%%diffG6$F&F)F-F-*&-%\"BGF(F-F&F-F*F&
+F-F-F)!\"#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 42 "eq3:=grcompon
+ent(G(dn,dn), [theta,theta]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$eq
+3G,$*&#\"\"\"\"\"%F(**%\"rGF(,,**\"\"#F(-%%diffG6$-%\"AG6#F+F+F(-%\"BG
+F4F(F2F(!\"\"*(F.F(-F06$F5F+F()F2F.F(F(**F/F(F9F(F2F(F+F(F(*,F.F(-F06$
+F2-%\"$G6$F+F.F(F5F(F2F(F+F(F7*()F/F.F(F5F(F+F(F(F(F5!\"#F2FEF(F7" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 39 "eq4:=grcomponent(G(dn,dn), [
+phi, phi]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$eq4G,$*&#\"\"\"\"\"%
+F(*,-%$sinG6#%&thetaG\"\"#%\"rGF(,,**F/F(-%%diffG6$-%\"AG6#F0F0F(-%\"B
+GF8F(F6F(!\"\"*(F/F(-F46$F9F0F()F6F/F(F(**F3F(F=F(F6F(F0F(F(*,F/F(-F46
+$F6-%\"$G6$F0F/F(F9F(F6F(F0F(F;*()F3F/F(F9F(F0F(F(F(F9!\"#F6FIF(F;" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "pdsolve(\{eq1,eq2,eq3\});" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#<$/-%\"AG6#%\"rG,&%$_C1G\"\"\"*&%$_C
+2GF+F(!\"\"F+/-%\"BGF'*&F*F+F)F." }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 24 "T := grdef(`T\{^i ^j\}`);\n" }}{PARA 6 "" 1 "" {TEXT 
+-1 31 "Created definition for T(up,up)" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%\"TG6\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 159 "grcompo
+nent(T(dn, dn), [t, t]) := 0;\ngrcomponent(T(dn, dn), [r, r]) := 0;\ng
+rcomponent(T(dn, dn), [theta, theta]) := 0;\ngrcomponent(T(dn, dn), [p
+hi, phi]) := 0;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>-%,grcomponentG6#7
+$%\"tGF(\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>-%,grcomponentG6#7$%
+\"rGF(\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>-%,grcomponentG6#7$%&t
+hetaGF(\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>-%,grcomponentG6#7$%$
+phiGF(\"\"!" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "grdisplay(T(
+dn,dn));" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 38 "eq5 := grcompon
+ent(T(dn, dn), [t, t]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$eq5G\"\"
+!" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 34 "eq6:= grcomponent(T(dn
+,dn),[r,r]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$eq6G\"\"!" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 42 "eq7:= grcomponent(T(dn,dn),[
+theta,theta]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$eq7G\"\"!" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 38 "eq8:= grcomponent(T(dn,dn),[
+phi,phi]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$eq8G\"\"!" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 43 "pdsolve(\{eq1=eq5,eq2=eq6,eq3=eq7,e
+q4=eq8\});" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#<$/-%\"AG6#%\"rG,&%$_C1G
+\"\"\"*&%$_C2GF+F(!\"\"F+/-%\"BGF'*&F*F+F)F." }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "30 0 0" 0 }{VIEWOPTS 1 1 0 1 1 1803 
+1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }
